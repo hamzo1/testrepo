@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SaskTel Inspired Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="utility-bar">
+        <div class="utility-left">
+          <button class="pill active">Personal</button>
+          <button class="pill">Business</button>
+        </div>
+        <div class="utility-search">
+          <input type="text" placeholder="What are you looking for?" />
+          <button aria-label="Search">
+            <span>🔍</span>
+          </button>
+        </div>
+        <div class="utility-links">
+          <a href="#"><span class="mini-icon">📍</span>Location</a>
+          <a href="#"><span class="mini-icon">?</span>Support</a>
+          <a href="#"><span class="mini-icon">✉️</span>Sasktel.net</a>
+          <a href="#"><span class="mini-icon">🛒</span>Cart</a>
+          <a href="#"><span class="mini-icon">👤</span>MySaskTel Login</a>
+        </div>
+      </div>
+      <div class="main-nav">
+        <div class="logo">
+          <span>SaskTel</span>
+          <span class="logo-bars"></span>
+        </div>
+        <nav class="nav-links" id="navLinks">
+          <a href="#">Wireless</a>
+          <a href="#">TV</a>
+          <a href="#">Internet</a>
+          <a href="#">Home Phone</a>
+          <a href="#">Home Security</a>
+          <a href="#">Deals</a>
+          <a href="#">Bundles</a>
+          <a href="#">About Us</a>
+        </nav>
+        <button class="menu-toggle" id="menuToggle">Menu</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Make every day</p>
+          <h1>sweeter.</h1>
+          <p class="hero-copy">
+            Get SaskTel TV for as low as <strong>$25/mo</strong>. Plus, get 2
+            months of Crave on us!
+          </p>
+          <button class="primary-btn">View offer</button>
+          <a href="#" class="subtle-link">Conditions apply</a>
+        </div>
+        <div class="hero-image" role="img" aria-label="Family baking together"></div>
+      </section>
+
+      <section class="quick-links">
+        <div class="quick-link">
+          <span class="icon">💳</span>
+          Pay bill
+        </div>
+        <div class="quick-link">
+          <span class="icon">⚡</span>
+          Speed restore
+        </div>
+        <div class="quick-link">
+          <span class="icon">📱</span>
+          Top up prepaid
+        </div>
+      </section>
+
+      <section class="savings">
+        <h2>More Savings</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="card-media phone"></div>
+            <div class="card-body">
+              <p class="card-label">Wireless</p>
+              <h3>SmartReturn</h3>
+              <p class="card-price">Best prices</p>
+              <p class="card-desc">
+                With SmartReturn, get premium devices for the lowest prices.
+              </p>
+              <p class="card-note">Conditions apply. <a href="#">See details.</a></p>
+              <button class="outline-btn">Learn more</button>
+              <a href="#" class="subtle-link">See more Wireless deals</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media entertainment"></div>
+            <div class="card-body">
+              <p class="card-label">TV</p>
+              <h3>Crave</h3>
+              <p class="card-price">50% off</p>
+              <p class="card-desc">
+                New Crave subscribers can get Crave at 50% off for the first 4
+                months!
+              </p>
+              <p class="card-note">Conditions apply. <a href="#">See details.</a></p>
+              <button class="outline-btn">Order now</button>
+              <a href="#" class="subtle-link">See more TV deals</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media internet"></div>
+            <div class="card-body">
+              <p class="card-label">Internet</p>
+              <h3>This connection? Effortless.</h3>
+              <p class="card-price"><span>infiNET 300</span> <strong>$65</strong> /mo.</p>
+              <p class="card-desc">
+                For 24 months with a 2-year Internet contract when bundled with
+                wireless.
+              </p>
+              <p class="card-note">Conditions apply. <a href="#">See details.</a></p>
+              <button class="outline-btn">View offer</button>
+              <a href="#" class="subtle-link">See more Internet deals</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <button class="feedback">Give feedback</button>
+    <button class="chat-bubble" aria-label="Chat with us">💬</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
